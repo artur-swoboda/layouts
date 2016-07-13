@@ -2,10 +2,6 @@ require 'psd'
 require 'json'
 require 'benchmark'
 
-
-
-
-
 time = Benchmark.measure do
   (1..10000).each { |i| i }
 
